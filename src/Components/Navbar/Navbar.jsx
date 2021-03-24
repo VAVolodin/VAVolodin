@@ -1,23 +1,25 @@
 import React from 'react';
+import ns from './Navbar.module.css';
+
 
 const NavBar = () => {
     return (
-<nav className="App-nav">
+<nav className={ns["App-nav"]}>
         <ul>
-          <li>
+          <li className={ns.item}>
             <a href="#s">Profile</a>
           </li>
-          <li>
+          <li className={ns.item}>
             <a href="#s">Messages</a>
           </li>
-          <li>
+          <li className={ns.item}>
             <a href="#s">News</a>
           </li>
-          <li>
+          <li className={ns.item}>
             <a href="#s">Musisc</a>
           </li>
-          <li>&nbsp;</li>
-          <li>
+          <li className={ns.item}>&nbsp;</li>
+          <li className={ns.item}>
             <a href="#s">Settings</a>
           </li>
         </ul>

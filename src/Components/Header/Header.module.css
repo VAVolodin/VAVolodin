@@ -1,0 +1,15 @@
+.App-header {
+    display: flex;
+    background-color: pink;
+    grid-area: 1/1/2/3;
+}
+
+.App-header h2 {
+    text-align: center;
+}
+
+.App-logo {
+    max-height: 100%;
+    display: inline-block;
+    border-radius: 0 50% 50% 0;
+}

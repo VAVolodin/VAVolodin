@@ -1,0 +1,4 @@
+.App-nav {
+    grid-area: 2/1/3/2;
+    background-color: grey;
+}

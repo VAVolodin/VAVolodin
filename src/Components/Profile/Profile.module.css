@@ -1,0 +1,15 @@
+.App-content {
+    grid-area: 2;
+    background-color: rgb(175, 223, 238);
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.content {
+    background-image: url(https://wallpaperaccess.com/full/4226177.jpg);
+    background-size: cover;
+}
+
+.ava {
+    width: 13em;
+}
