@@ -12,7 +12,8 @@ const MyPosts = () => {
                 <button>Remove</button>
             </div>
             <div className={ps.posts}>Новые посты:
-                <Post />
+                <Post message="Hey, how're you?" />
+                <Post message="Thanks, I'm fine! =)" />
             </div>
         </>
         

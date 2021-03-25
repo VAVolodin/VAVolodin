@@ -2,6 +2,15 @@
     font-weight: normal;
     font-size:medium;
     text-decoration: none;
-    text-indent: 1em;
+    text-indent: 1rem;
+    margin-top: 0.5rem;
 }
 
+.item img {
+    width: 5rem;
+    border-radius: 100%;
+}
+
+.item span {
+    height: 100%;
+}

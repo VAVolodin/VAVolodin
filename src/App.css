@@ -1,7 +1,11 @@
 .App-wrapper {
   /* text-align: center; */
   display: grid;
-  grid-template: 10% 1fr / 20% 1fr;
+  grid-template: 5rem 1fr / 20% 1fr;
+}
+
+.app_content {
+  background-color: rgb(175, 223, 238);
 }
 
 ul {

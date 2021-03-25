@@ -7,10 +7,10 @@ const NavBar = () => {
 <nav className={ns["App-nav"]}>
         <ul>
           <li className={ns.item}>
-            <a href="#s">Profile</a>
+            <a href="/Profile">Profile</a>
           </li>
           <li className={ns.item}>
-            <a href="#s">Messages</a>
+            <a href="/Dialogs">Messages</a>
           </li>
           <li className={ns.item}>
             <a href="#s">News</a>
